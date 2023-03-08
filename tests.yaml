@@ -1,0 +1,7 @@
+schemaVersion: "2.0.0"
+
+commandTests:
+  - name: "w3security installed"
+    command: "which"
+    args: ["w3security"]
+    expectedOutput: ["/usr/local/bin/w3security"]
